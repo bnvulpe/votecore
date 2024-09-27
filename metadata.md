@@ -1,1 +1,5 @@
-
+- **Data Source**: Origin of the data (e.g., website, API, public dataset).
+- **Collection Date**: Date on which the data was collected.
+- **Data Format**: Formats of the data files (CSV, JSON, images, etc.).
+- **Usage License**: Licenses under which the data is provided (if applicable).
+- **Description of Variables or Attributes**: Detailed explanation of the columns or features of the collected data.
