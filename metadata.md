@@ -65,6 +65,30 @@ Please refer to the [Google Trends Terms of Service](https://policies.google.com
 | `Biden: (Estados Unidos)`        | Google Trends interest score for "Biden" in the United States on the given date. |
 | `Trump: (Estados Unidos)`     | Google Trends interest score for "Trump" in the United States on the given date. |
 
+## -> Reddit comments
 
-The values represent interest over time, with higher values indicating more search interest relative to the other data points. A value of `<1` indicates very low interest, less than 1 on the normalized scale.
+### **Data Source**
+The data was extracted from .
 
+### **Collection Date**
+The data was collected on **September XX, 2024**.
+
+### **Data Format**
+The data is in **CSV** format (`presidential_general_averages.csv`).
+
+### **Usage License**
+The data .
+
+## Description of Variables or Attributes
+
+| Variable/Attribute   | Description |
+| -------------------- | ----------- |
+| `subreddit`          | Name of the subreddit. |
+| `subreddit_id`       | ID of the subreddit. |
+| `name`               | ID of the author??. |
+| `author`             | User name of the author. |
+| `created`            | Creation ID?. |
+| `datetime`           | Date and time of the publication of the message. |
+| `score`              | Estimated percentage of support for the candidate based on the poll. |
+| `hi`                 | Upper bound of the estimated percentage. |
+| `lo`                 | Lower bound of the estimated percentage. |
