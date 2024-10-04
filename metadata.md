@@ -1,5 +1,8 @@
 # Dataset Information
 
+## **Usage License from collected data sources**
+The data obtained from FiveThirtyEight, Google, Arctic Shift (and consequently Reddit) is intended solely for academic and personal use, with no intent for commercial gain. This data will be used exclusively for educational research, analysis, and developing insights for a non-commercial project. The purpose is to conduct data-driven analysis while respecting the integrity of the original sources. Since licensing information could not be located on the source pages, every effort will be made to provide proper attribution to FiveThirtyEight, Google, and Arctic Shift, ensuring that no proprietary elements are exploited or republished in a commercial context
+
 ## -> Presidential General Averages
 
 ### **Data Source**
@@ -12,9 +15,6 @@ The data was collected on **September 27, 2024**.
 
 ### **Data Format**
 The data is in **CSV** format (`presidential_general_averages.csv`).
-
-### **Usage License**
-The data is provided under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**, allowing for reuse with proper attribution to the source.
 
 ## Description of Variables or Attributes
 
@@ -41,9 +41,6 @@ The data was collected on **September 27, 2024**.
 
 ### **Data Format**
 The data is in **CSV** format (`google_trends_last_90_days_full_names.csv`, `google_trends_last_90_days_surnames.csv` ).
-
-### **Usage License**
-Please refer to the [Google Trends Terms of Service](https://policies.google.com/terms) for specific usage rights and restrictions regarding the data.
 
 ## Description of Variables or Attributes
 
@@ -75,9 +72,6 @@ The data was collected on **September 27, 2024**, so data ranges from 2024-06-01
 
 ### **Data Format**
 The data is in **JSON** format (`r_(subreddit)_posts.json`).
-
-### **Usage License**
-Not relevant.
 
 ## Description of Variables or Attributes
 
@@ -112,9 +106,6 @@ The data was collected on **September 27, 2024**, so data ranges from 2024-06-01
 
 ### **Data Format**
 The data is in **JSON** format (`r_(subreddit)_comments(_month?).json`).
-
-### **Usage License**
-Not relevant.
 
 ## Description of Variables or Attributes
 
