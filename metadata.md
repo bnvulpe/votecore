@@ -1,7 +1,7 @@
 # Dataset Information
 
 ## **Usage License from collected data sources**
-The data obtained from FiveThirtyEight, Google, Arctic Shift (and consequently Reddit) is intended solely for academic and personal use, with no intent for commercial gain. This data will be used exclusively for educational research, analysis, and developing insights for a non-commercial project. The purpose is to conduct data-driven analysis while respecting the integrity of the original sources. Since licensing information could not be located on the source pages, every effort will be made to provide proper attribution to FiveThirtyEight, Google, and Arctic Shift, ensuring that no proprietary elements are exploited or republished in a commercial context
+The data obtained from FiveThirtyEight, Google, Arctic Shift (and consequently Reddit) is intended solely for academic and personal use, with no intent for commercial gain. This data will be used exclusively for educational research, analysis, and developing insights for a non-commercial project. The purpose is to conduct data-driven analysis while respecting the integrity of the original sources. Since licensing information could not be located on the source pages, every effort will be made to provide proper attribution to FiveThirtyEight, Google, and Arctic Shift, ensuring that no proprietary elements are exploited or republished in a commercial context.
 
 ## -> Presidential General Averages
 
