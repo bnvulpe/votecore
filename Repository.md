@@ -1,1 +1,1 @@
-https://github.com/bnvulpe/votecore/
+https://github.com/bnvulpe/votecore/tree/main
