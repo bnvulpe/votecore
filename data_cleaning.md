@@ -51,3 +51,5 @@ After cleaning the individual datasets, the next step is to consolidate all the 
 In the end, we have a **JSON file** where each dictionary corresponds to a comment or post made on a specific day, and contains not only the information relevant to that comment/post, but also the corresponding poll data and Google interest scores for each candidate on the same day.
 
 Initially, we planned to preserve the relationship between comments, parent comments, and posts, thinking it might be useful for text modeling (e.g., analyzing the context in which a comment appears). However, as we are now focusing on sentiment extraction towards each candidate from the **bodies + titles**, this relationship is no longer relevant. Consequently, we removed the columns **name, datetime, post_id, id**, and **parent** from the final dataset. This helps streamline the data for sentiment analysis and ensures we’re not carrying unnecessary information moving forward.
+
+Justify drop ratio, upvotes, type.
