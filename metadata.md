@@ -135,3 +135,22 @@ As said before, reddit data was collected by using the [Artic Shift's download t
 Simply put the name of the subreddit on its respective field and establish the date rage, from June 1, 2024 to September 27, 2024 in our case, then tick the checkboxes to download comments and posts and push the download button. Most of the generated files containing posts and comments were too big to be pushed directly to the repository, so smaller samples of the data can be found in `./data/raw/reddit/`. 
 
 If readers want to download the whole dataset, discretion is advised, as some documents are extremely heavy.
+
+# Final Dataset Information
+
+Once the data is gathered, processed and cleaned, the remainer data follows this structure:
+
+| Variable/Attribute   | Description |
+| -------------------- | ----------- |
+| `subreddit`          | Name of the subreddit on which the text information was extracted. |
+| `score`              | Reddit's total score for a comment/post (upvotes minus downvotes). |
+| `title`              | Raw text title of the comment/post. |
+| `body`               | Raw text body of the comment/post. |
+| `date_day`           | Date on which the data was recorded. |
+| `polls_Biden`        | Estimated percentage of voters in favor of Biden (Normalized) based on the poll on the given date. |
+| `polls_Trump`        | Estimated percentage of voters in favor of Trump (Normalized) based on the poll on the given date. |
+| `polls_Harris`       | Estimated percentage of voters in favor of Harris (Normalized) based on the poll on the given date. |
+| `google_Trump`       | Google Trends interest (mean average) score for "Donald Trump" and "Trump" in the United States on the given date. |
+| `google_Biden`       | Google Trends interest (mean average) score for "Joe Biden" and "Biden" in the United States on the given date. |
+| `google_Harris`      | Google Trends interest (mean average) score for "Kamala Harris" and "Harris" in the United States on the given date. |
+| `tokens`             | Tokens corresponding of both title an body tokenization. |
