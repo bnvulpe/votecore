@@ -140,6 +140,8 @@ If readers want to download the whole dataset, discretion is advised, as some do
 
 Once the data is gathered, processed and cleaned, the remainer data follows this structure:
 
+## Dataset for when Biden was up for the presidential run
+
 | Variable/Attribute   | Description |
 | -------------------- | ----------- |
 | `subreddit`          | Name of the subreddit on which the text information was extracted. |
@@ -149,8 +151,21 @@ Once the data is gathered, processed and cleaned, the remainer data follows this
 | `date_day`           | Date on which the data was recorded. |
 | `polls_Biden`        | Estimated percentage of voters in favor of Biden (Normalized) based on the poll on the given date. |
 | `polls_Trump`        | Estimated percentage of voters in favor of Trump (Normalized) based on the poll on the given date. |
-| `polls_Harris`       | Estimated percentage of voters in favor of Harris (Normalized) based on the poll on the given date. |
 | `google_Trump`       | Google Trends interest (mean average) score for "Donald Trump" and "Trump" in the United States on the given date. |
 | `google_Biden`       | Google Trends interest (mean average) score for "Joe Biden" and "Biden" in the United States on the given date. |
+| `tokens`             | Tokens corresponding of both title an body tokenization. |
+
+## Dataset for when Biden step out and Harris replace him on the presidental run
+
+| Variable/Attribute   | Description |
+| -------------------- | ----------- |
+| `subreddit`          | Name of the subreddit on which the text information was extracted. |
+| `score`              | Reddit's total score for a comment/post (upvotes minus downvotes). |
+| `title`              | Raw text title of the comment/post. |
+| `body`               | Raw text body of the comment/post. |
+| `date_day`           | Date on which the data was recorded. |
+| `polls_Trump`        | Estimated percentage of voters in favor of Trump (Normalized) based on the poll on the given date. |
+| `polls_Harris`       | Estimated percentage of voters in favor of Harris (Normalized) based on the poll on the given date. |
+| `google_Trump`       | Google Trends interest (mean average) score for "Donald Trump" and "Trump" in the United States on the given date. |
 | `google_Harris`      | Google Trends interest (mean average) score for "Kamala Harris" and "Harris" in the United States on the given date. |
 | `tokens`             | Tokens corresponding of both title an body tokenization. |
