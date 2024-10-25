@@ -31,8 +31,6 @@
 
   1. **Data Bias:** Social media data, especially from platforms like Reddit, may not be representative of the broader population, as it often reflects the opinions of more vocal or politically active users.
 
-  2. **Insufficient Coverage:** Certain time periods or candidates may have limited data available, particularly in less-discussed regions or during quieter periods of the campaign, leading to incomplete coverage.
+  2. **Insufficient Coverage:** Certain time periods or candidates may have limited data available on social media platforms, particularly in less-discussed events or during quieter periods of the campaign, leading to incomplete coverage.
 
-  3. **Data Gaps:** There may be missing or incomplete data points for some days in both polling and Google Trends datasets, which could affect the accuracy of longitudinal analyses.
-
-  4. **Support Analysis Accuracy:** The complexity of political discourse and the presence of sarcasm or ambiguous language may present challenges in accurately capturing supportive or critical sentiment from social media posts.
+  3. **Support Analysis Accuracy:** The complexity of political discourse and the presence of sarcasm or ambiguous language may present challenges in accurately capturing supportive or critical sentiment from social media posts.

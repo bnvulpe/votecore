@@ -47,7 +47,7 @@ After cleaning the individual datasets, the next step is to consolidate all the 
 - Both DataFrames were then converted into lists of dictionaries using the `to_dict(orient="records")` method. These lists were merged into a single list, called **json_data**.
 - From the **polls** DataFrame, we extracted the unique candidate names, while from the **Google** DataFrame, we focused on specific column names related to candidate interest.
 - The next step involved iterating over each document in **json_data** and matching the **date_day** field with the **date** field in both the polls and Google DataFrames. For each candidate, we retrieved the corresponding poll and Google values and added them to the document. If no matching data was found for that day, we assigned the value **None** to the field.
-- Once all the data was added to the documents, decided to convert the **json_data** list into a DataFrame. For this task, we decided to remove the columns **type**, **upvotes**, **score** and **ratio** from the final dataset, as they were not relevant for the support analysis.
+- Once all the data was added to the documents, decided to convert the **json_data** list into a DataFrame. For this task, we decided to remove the columns **type**,  **name**,**datetime**, **post_id**,**parent**,**id**, **subreddit**, **upvotes**, **score** and **ratio** from the final dataset, as they were not relevant for the support analysis and the initial ideas we had for their use were discarted.
 
 **Justification**:
 - The final dataset combines all relevant information for the making it ready for the next steps of analysis. The removal of all score collumns is justified by the fact that we are focusing on the support values extraction from the bodies and titles of the comments and posts.
@@ -62,7 +62,7 @@ Once the data is cleaned and consolidated, the next step is to perform support a
 
 - **Category Assignment**: Given we are focusing on candidates, for each comment or post, the classifier will assign if the text refers to a suppotive or critical sentiment towards each candidate. This will be done for the both the body and the title of the comment or post. The use of slogans instead of pure sentiment is justified by the fact that the model was not explicitly trained for sentiment analysis, so classifiation by slogans is a more robust approach.
 
-- **No mention case**: In the case where a comment or post does not mention any candidate, the support value will be assigned as **None**, indicating that no sentiment towards any candidate was expressed.
+- **No mention case**: In the case where a comment or post does not mention a candidate, the support value will be assigned as **None**, indicating that no sentiment was expressed.
   
 **Justification**:
 - Give the lack of Entity Level Sentiment Analysis models, the zero-shot classification approach is the best option to determine the sentiment towards each candidate in the comments and posts.
@@ -84,3 +84,5 @@ After extracting the support values, the next step is to normalize and aggregate
 
 **Justification**:
 - Aggregating the support values and normalizing the data will provide a consistent basis for comparison and analysis. This step is crucial for identifying trends and correlations between different datasets.
+
+To examine our main hypothesis across two distinct date ranges, we have divided the data into two datasets: one comparing Joe Biden and Donald Trump, and the other comparing Kamala Harris and Donald Trump. This structure allows us to conduct our intended analyses on events both prior to Joe Biden’s resignation and following Kamala Harris’s candidacy.
