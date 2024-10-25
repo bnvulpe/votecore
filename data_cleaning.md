@@ -80,5 +80,7 @@ After extracting the support values, the next step is to normalize and aggregate
 
 - **Aggregating Poll and Google Data**: The poll and Google data will be aggregated daily to align with the support values. This will involve averaging the poll estimates and interest scores for each candidate to create a single value per day.
 
+- **None values**: In the case where no support value is assigned to a candidate, the value will be filled with the function (row_before + row_after) / 2. This will ensure that the data is continuous and that no gaps are present in the support analysis.
+
 **Justification**:
 - Aggregating the support values and normalizing the data will provide a consistent basis for comparison and analysis. This step is crucial for identifying trends and correlations between different datasets.
