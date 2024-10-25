@@ -150,18 +150,22 @@ Once the data is gathered, processed and cleaned, the remainer data follows this
 | `polls_Trump`        | Estimated percentage of voters in favor of Trump (Normalized) based on the poll on the given date. |
 | `google_Trump`       | Google Trends interest (mean average) score for "Donald Trump" and "Trump" in the United States on the given date. |
 | `google_Biden`       | Google Trends interest (mean average) score for "Joe Biden" and "Biden" in the United States on the given date. |
-| `sentimental_score_Trump`| Model's sentiment score average for Trump on the given date. |
-| `sentimental_score_Biden`| Model's sentiment score average for Biden on the given date. |
+| `Love_score_Trump`   | Model's love classification score average for Trump on the given date. |
+| `Hate_score_Trump`   | Model's hate classification score average for Trump on the given date. |
+| `Love_score_Biden`   | Model's love classification score average for Biden on the given date. |
+| `Hate_score_Biden`   | Model's hate classification score average for Biden on the given date. |
 
-## Dataset for when Biden step out and Harris replace him on the presidental run
+## Dataset for when Biden step out and Harris replace him on the presidential run
 
 | Variable/Attribute   | Description |
 | -------------------- | ----------- |
 | `date_day`           | Date on which the data reffers to. |
 | `Raw_text`           | Raw text both title an body of the all the comments/posts on the given date. |
-| `polls_Harris`        | Estimated percentage of voters in favor of Harris (Normalized) based on the poll on the given date. |
+| `polls_Harris`       | Estimated percentage of voters in favor of Harris (Normalized) based on the poll on the given date. |
 | `polls_Trump`        | Estimated percentage of voters in favor of Trump (Normalized) based on the poll on the given date. |
 | `google_Trump`       | Google Trends interest (mean average) score for "Donald Trump" and "Trump" in the United States on the given date. |
-| `google_Harris`       | Google Trends interest (mean average) score for "Kamala Harris" and "Harris" in the United States on the given date. |
-| `sentimental_score_Trump`| Model's sentiment score average for Trump on the given date. |
-| `sentimental_score_Biden`| Model's sentiment score average for Harris on the given date. |
+| `google_Harris`      | Google Trends interest (mean average) score for "Kamala Harris" and "Harris" in the United States on the given date. |
+| `Love_score_Trump`   | Model's love classification score average for Trump on the given date. |
+| `Hate_score_Trump`   | Model's hate classification score average for Trump on the given date. |
+| `Love_score_Harris`  | Model's love classification score average for Harris on the given date. |
+| `Hate_score_Harris`  | Model's hate classification score average for Harris on the given date. |
