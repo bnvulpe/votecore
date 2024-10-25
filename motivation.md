@@ -5,9 +5,9 @@
 
 - **Research Questions or Hypotheses:**  
 
-  The hypothesis of this study is twofold: First, the support values extracted from Reddit comments and posts for each candidate are expected to show a statistically positive correlation (correlation > 0) with the corresponding poll results from the same timeframe. This suggests that as public sentiment on Reddit improves or worsens for a candidate, their polling numbers will follow a similar trend. Second, the frequency of mentions of each candidate in political discussions on Reddit is hypothesized to positively correlate with Google Trends search volume for the same candidate. This indicates that as candidates receive more attention and mentions in Reddit forums, public interest, as reflected by Google search activity, will increase proportionally. These hypotheses aim to demonstrate how online discourse and sentiment can provide insights into broader public opinion and interest. 
+  This study hypothesizes that the support values extracted from Reddit comments and posts for each candidate in two datasets—one comparing Joe Biden and Donald Trump, and the other comparing Kamala Harris and Donald Trump—will show a statistical correspondence between functions with the corresponding poll results from the same timeframe. This would suggest that as sentiment on Reddit shifts positively or negatively for a candidate, polling data will reflect similar trends. Additionally, the study anticipates that sentiment changes on Reddit will correspond positively with Google Trends search volumes for each candidate, indicating that public interest, as reflected by search activity, aligns with sentiment trends on Reddit. These hypotheses aim to demonstrate that online discourse and sentiment can offer valuable insights into broader public opinion and interest, with the potential to predict shifts in support, including scenarios in which Kamala Harris could emerge as a leading candidate in the election context.
 
-  The study is limited to the U.S. public, focusing specifically on the behaviors of predominantly U.S.-based users on Reddit and Google Trends.
+  Note that this study is limited to the U.S. public, focusing specifically on the behaviors of predominantly U.S.-based users on Reddit and Google Trends.
 
   Here are some research questions that we intend on answering to support the project's objectives and validate the hypothesis:
 
@@ -17,13 +17,10 @@
   2. **Do changes in Reddit support values for each candidate precede or follow changes in poll results?**
     - This explores the temporal dynamics of the correlation, determining whether online support predicts poll outcomes or reflects them after they happen.
 
-  3. **How does the frequency of mentions of each candidate on Reddit political forums correlate with the Google Trends search volume over the same time period?**
-    - This would test the second part of the hypothesis, focusing on whether public discussions align with search trends.
-
-  4. **How does the number of mentions of a candidate in Reddit posts/comments vary in relation to key campaign events, and how does this compare to spikes in Google search activity?**
+  3. **How does support for a candidate in Reddit posts/comments vary in relation to key campaign events, and how does this compare to spikes in Google search activity?**
     - This examines whether certain events lead to parallel increases in mentions and searches, suggesting synchronized spikes in public interest.
 
-  5. **Do incidents like the assassination attempt, Biden's retirement from politics and arrival of Kamala Harris to the presidential race directly affect support and poll results?**
+  4. **Do incidents like the assassination attempt, Biden's retirement from politics and arrival of Kamala Harris to the presidential race directly affect support and poll results?**
     - This question assesses whether these significant events lead to noticeable improvements or declines in support and polling trends, highlighting their immediate impact on public opinion.
 
 - **Justification of the Selected Data:**  
