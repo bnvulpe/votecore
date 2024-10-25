@@ -47,9 +47,38 @@ After cleaning the individual datasets, the next step is to consolidate all the 
 - Both DataFrames were then converted into lists of dictionaries using the `to_dict(orient="records")` method. These lists were merged into a single list, called **json_data**.
 - From the **polls** DataFrame, we extracted the unique candidate names, while from the **Google** DataFrame, we focused on specific column names related to candidate interest.
 - The next step involved iterating over each document in **json_data** and matching the **date_day** field with the **date** field in both the polls and Google DataFrames. For each candidate, we retrieved the corresponding poll and Google values and added them to the document. If no matching data was found for that day, we assigned the value **None** to the field.
+- Once all the data was added to the documents, decided to convert the **json_data** list into a DataFrame. For this task, we decided to remove the columns **type**, **upvotes**, **score** and **ratio** from the final dataset, as they were not relevant for the support analysis.
+
+**Justification**:
+- The final dataset combines all relevant information for the making it ready for the next steps of analysis. The removal of all score collumns is justified by the fact that we are focusing on the support values extraction from the bodies and titles of the comments and posts.
+
+---
+
+### 5. **Support Analysis**
+
+Once the data is cleaned and consolidated, the next step is to perform support analysis. This involves extracting sentiment towards each candidate from the bodies and titles of the comments and posts. The sentiment analysis will be conducted using a zero-shot classifier to determine the most appropiate slogan for each candidate on each post or comment.
+
+- **Zero-Shot Classification**: A zero-shot classifier, [facebook/bart-large-mnli](https://huggingface.co/facebook/bart-large-mnli), will be used to determine the support values towards each candidate in the comments and posts. This approach allows us to classify the sentiment without the need for pre-defined categories and , making it more flexible and adaptable to the nuances of political discourse.
+
+- **Category Assignment**: Given we are focusing on candidates, for each comment or post, the classifier will assign if the text refers to a suppotive or critical sentiment towards each candidate. This will be done for the both the body and the title of the comment or post. The use of slogans instead of pure sentiment is justified by the fact that the model was not explicitly trained for sentiment analysis, so classifiation by slogans is a more robust approach.
+
+- **No mention case**: In the case where a comment or post does not mention any candidate, the support value will be assigned as **None**, indicating that no sentiment towards any candidate was expressed.
   
-In the end, we have a **JSON file** where each dictionary corresponds to a comment or post made on a specific day, and contains not only the information relevant to that comment/post, but also the corresponding poll data and Google interest scores for each candidate on the same day.
+**Justification**:
+- Give the lack of Entity Level Sentiment Analysis models, the zero-shot classification approach is the best option to determine the sentiment towards each candidate in the comments and posts.
+- The assignment of **None** for the case where no candidate is mentioned is important to avoid false positives in the support analysis.
 
-Initially, we planned to preserve the relationship between comments, parent comments, and posts, thinking it might be useful for text modeling (e.g., analyzing the context in which a comment appears). However, as we are now focusing on sentiment extraction towards each candidate from the **bodies + titles**, this relationship is no longer relevant. Consequently, we removed the columns **name, datetime, post_id, id**, and **parent** from the final dataset. This helps streamline the data for sentiment analysis and ensures we’re not carrying unnecessary information moving forward.
+---
 
-Justify drop ratio, upvotes, type.
+### 6. **Normalization and Aggregation**
+
+After extracting the support values, the next step is to normalize and aggregate the data to facilitate the analysis. This involves:
+
+- **Aggregating Support Values**: The support values for each candidate will be aggregated daily to provide a comprehensive view of the sentiment trends over time. For each day, the mean support value for each candidate will be calculated based on the comments and posts mentioning them, hereby creating a daily support score for each candidate. Note that **None** values will be excluded from the aggregation automatically by pandas.
+
+- **Normalization**: The google trends data will be normalized to ensure that all datasets are on the same scale. This will involve scaling the interest scores to a range of 0-1, allowing for direct comparison with the support values. Also, the poll data will be normalized to the same range to ensure consistency across all datasets.
+
+- **Aggregating Poll and Google Data**: The poll and Google data will be aggregated daily to align with the support values. This will involve averaging the poll estimates and interest scores for each candidate to create a single value per day.
+
+**Justification**:
+- Aggregating the support values and normalizing the data will provide a consistent basis for comparison and analysis. This step is crucial for identifying trends and correlations between different datasets.
