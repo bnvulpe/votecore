@@ -28,14 +28,10 @@
    - **What’s Done**: Sentiment analysis and the **time series analysis** of support scores for each candidate (Trump, Biden, Harris) has been performed.
    - **Remaining Work**: The correlation with polling data needs to be completed. Then the statistical significance of these correlations will be used to confirm whether changes in Reddit sentiment align with polling results.
 
-### 2. **Do changes in Reddit support values precede or follow changes in poll results?**
-   - **What’s Done**: Time series analysis (ARMA models) has been conducted on support scores, which will help detect trends and potential seasonality.
-   - **Remaining Work**: **Granger causality testing** is needed to determine if Reddit sentiment precedes polling data.
-
-### 3. **Support for a candidate in Reddit posts/comments and relation to campaign events and Google search activity**
+### 2. **Support for a candidate in Reddit posts/comments and relation to campaign events and Google search activity**
    - **What’s Done**: Dynamic topic modeling (LdaSeqModel) has been performed to track Reddit discussions over time. Topic evolution analysis and the correlation with Google Trends are being explored.
    - **Remaining Work**: You need to explicitly correlate key **campaign events** (e.g., debates, major announcements) with the Reddit support scores and Google Trends data. You will also need to quantify how sentiment and search volumes change around those events.
 
-### 4. **Impact of specific incidents (e.g., Biden’s retirement, Harris’s entry) on support and poll results**
+### 3. **Impact of specific incidents (e.g., Biden’s retirement, Harris’s entry) on support and poll results**
    - **What’s Done**: Dynamic topic modeling can reveal shifts in Reddit discussions around key events. Time series analysis has been done on the support scores, which will capture any significant changes in sentiment.
    - **Remaining Work**: Analyzing the direct impact of specific events on **support scores** and **poll results** is still pending. This will involve linking major events with noticeable changes in sentiment and testing if these correspond to shifts in polling data.
