@@ -8,16 +8,18 @@
 
 
 ### 2. **Time Series-Support Score Analysis**
+   Add tables of metrics/technique results calculates and plots.
 
 
 ### 3. **Correlation with Polls, Google Trends and Sentiment**
-Every possible combination of polling data or search interest with sentiment was analyzed:
-         - **Trump-Biden Period**: 
-            - Polls (Trump) with sentiment for Trump and Biden individually, and combined.
-            - Polls (Biden) with sentiment for Trump, Biden, and their combination.
-         - **Trump-Harris Period**: 
-            - Polls (Trump) with sentiment for Trump and Harris individually, and combined.
-            - Polls (Harris) with sentiment for Trump, Harris, and their combination.  
-         - The same combinations were repeated for Google search interest data.  
+   Add tables of metrics/technique results calculates and plots.
+   Every possible combination of polling data or search interest with sentiment was analyzed:
+   - **Trump-Biden Period**: 
+      - Polls (Trump) with sentiment for Trump and Biden individually, and combined.
+      - Polls (Biden) with sentiment for Trump, Biden, and their combination.
+   - **Trump-Harris Period**: 
+      - Polls (Trump) with sentiment for Trump and Harris individually, and combined.
+      - Polls (Harris) with sentiment for Trump, Harris, and their combination.  
+   - The same combinations were repeated for Google search interest data.  
 
 

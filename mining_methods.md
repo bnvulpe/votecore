@@ -26,6 +26,5 @@
             - Polls (Harris) with sentiment for Trump, Harris, and their combination.  
          - The same combinations were repeated for Google search interest data.  
 
-   - **Outcome**: The analysis is aimed to identify patterns where changes in Reddit sentiment align with shifts in public opinion (polls) and search interest, validating or not the hypothesis that online discourse can predict broader political trends.  
-   - **Why Chosen**: Polling data and Google Trends are well-established indicators of public opinion and interest. Correlating these with Reddit sentiment allows us to determine whether online discussions reflect or even anticipate public perception shifts. This strengthens the link between sentiment analysis and real-world trends, providing a richer understanding of the political discourse landscape.
+   - **Why Chosen**: The analysis is aimed to identify patterns where changes in Reddit sentiment align with shifts in public opinion (polls) and search interest, validating or not the hypothesis that online discourse can predict broader political trends.  
 
