@@ -6,8 +6,6 @@ This repository is designed to analyze public sentiment toward political candida
 
 ## **Contents of the Repository**
 
-### **Folder Structure**
-
 - **`data/`**  
   Contains the data in three forms: `raw`, `filtered`, and `processed`, guiding the user through the data preparation stages identified as necessary for meeting the project’s objectives. Each folder includes datasets at different stages of preparation, allowing users to track the data transformation process from initial collection to final analysis-ready form.
 
@@ -29,6 +27,8 @@ This repository is designed to analyze public sentiment toward political candida
   Provides an in-depth guide to the data cleaning process, detailing each step taken to prepare the raw data for analysis. This file explains the rationale behind each transformation, including data deduplication, missing data handling, standardization, and other preprocessing tasks that ensure the datasets align with the project’s analytical goals.
 
 - **`mining_methods.md`**
+  
   Provides a detailed description of the data mining techniques used, the rationale behind their selection based on project objectives and data characteristics, and the configuration of the algorithms, including parameters, tools, and libraries employed.
 - **`results.md`**
+  
   Summarizes the results obtained from various data mining techniques, including visualizations such as graphs, tables, and other representations to facilitate interpretation.
