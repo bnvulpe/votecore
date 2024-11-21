@@ -14,13 +14,10 @@
   1. **What is the correlation between support values from Reddit posts/comments and polling results for each candidate over the same time period?**
     - This question helps directly address the first part of the hypothesis, measuring how closely online support reflects polling trends.
 
-  2. **Do changes in Reddit support values for each candidate precede or follow changes in poll results?**
-    - This explores the temporal dynamics of the correlation, determining whether online support predicts poll outcomes or reflects them after they happen.
-
-  3. **How does support for a candidate in Reddit posts/comments vary in relation to key campaign events, and how does this compare to spikes in Google search activity?**
+  2. **How does support for a candidate in Reddit posts/comments vary in relation to key campaign events, and how does this compare to spikes in Google search activity?**
     - This examines whether certain events lead to parallel increases in mentions and searches, suggesting synchronized spikes in public interest.
 
-  4. **Do incidents like the assassination attempt, Biden's retirement from politics and arrival of Kamala Harris to the presidential race directly affect support and poll results?**
+  3. **Do incidents like the assassination attempt, Biden's retirement from politics and arrival of Kamala Harris to the presidential race directly affect support and poll results?**
     - This question assesses whether these significant events lead to noticeable improvements or declines in support and polling trends, highlighting their immediate impact on public opinion.
 
 - **Justification of the Selected Data:**  
