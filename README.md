@@ -32,3 +32,9 @@ This repository is designed to analyze public sentiment toward political candida
 - **`results.md`**
   
   Summarizes the results obtained from various data mining techniques, including visualizations such as graphs, tables, and other representations to facilitate interpretation.
+
+- **`evaluation.md`**
+  Describes the evaluation methods used.
+
+- **`interpretation.md`**
+  Details the findings of this project and its connection to the research questions.
