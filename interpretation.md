@@ -1,5 +1,19 @@
 - **Análisis de Patrones Descubiertos:** Interpretar los patrones, relaciones y tendencias identificadas en los datos, explicando qué significan en el contexto del problema planteado.
 
+  Ideas:
+- The lack of high values in the exogenous coefficients of the model suggests an absence of a strong or meaningful relationship between support levels for each candidate across different subreddits and external metrics such as Google search trends or polling data. This indicates that variations in online support, as observed through Reddit activity, do not appear to directly correlate with broader measures of public interest or electoral sentiment during the period leading up to elections.
+
+- The consistently low order of all ARIMA models applied to the data highlights the high volatility of support values observed on Reddit. This volatility indicates that fluctuations in candidate support are largely unpredictable and exhibit no significant relationships between past and present values when analyzed over extended timeframes exceeding one or two days. Consequently, these findings imply a lack of temporal dependency or persistence in support values, reflecting the short-lived and dynamic nature of online discussions in this context.
+
+- A single notable instance of real influence was observed during Joe Biden's presidency, in which a decrease in support values for Donald Trump on Reddit corresponded with an increase in Google search activity related to him. This isolated case suggests a potential causal relationship, where reduced online support triggered heightened public curiosity or concern, as reflected in Google search patterns. However, the rarity of such occurrences underscores their exceptional nature rather than indicating a broader trend.
+
 - **Relación con las Preguntas de Investigación:** Conectar los resultados obtenidos con las preguntas de investigación o hipótesis formuladas en la Entrega 2. Identificar claramente si los hallazgos apoyan o contradicen las hipótesis iniciales.
 
+The study's hypotheses are only partially supported by the findings. The analysis revealed no statistically significant correspondence between Reddit-derived support values and polling results for Joe Biden, Donald Trump, or Kamala Harris, as fluctuations in online sentiment did not align consistently with broader public opinion captured in polls. This lack of correlation was underscored by the low exogenous coefficients in the models, indicating that sentiment on Reddit may not serve as a reliable proxy for electoral support or polling trends.
+
+Similarly, the anticipated positive relationship between Reddit sentiment changes and Google Trends search volumes was not consistently observed. While one notable instance occurred during Joe Biden's presidency, where a decline in support for Donald Trump on Reddit coincided with increased search activity for him, this was an isolated case and not representative of a general trend. This suggests that sentiment changes on Reddit are highly reactive and event-specific, rather than broadly predictive of public interest or behavior.
+
+Furthermore, the study highlighted potential biases in data selection, particularly concerning Kamala Harris. Sentiment analysis in the days leading up to the election suggested that Harris should have won based on Reddit discourse, whereas Donald Trump ultimately did. This discrepancy points to a disconnect between online sentiment and real-world electoral outcomes, further challenging the hypothesis that Reddit sentiment can reliably predict shifts in support or public interest. Overall, while Reddit sentiment offers some insights into the dynamics of online discourse, its predictive value for polling trends and broader public opinion remains limited.
+
 - **Ejemplos Ilustrativos:** Proporcionar ejemplos específicos de los datos que ilustren los patrones o resultados más significativos.
+- No c que poner :)
