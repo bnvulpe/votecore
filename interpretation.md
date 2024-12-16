@@ -10,16 +10,15 @@ These low coefficients indicate that, while fluctuations in Reddit support are e
 
 This implies that variations in online support, as seen through Reddit activity, do not directly align with broader measures of public interest or electoral sentiment during the period leading up to the elections.
 
-**Note: this can be shown visually maybe a little heatmap of exogenous coefficients
-
-
 #### High Volatility
 
 The consistently low order of all ARIMA models applied to the data underscores the high volatility of support levels observed on Reddit. This volatility suggests that fluctuations in candidate support are largely unpredictable and show no significant relationships between past and present values when analyzed over extended periods, such as more than one or two days. These findings indicate a lack of temporal dependency or persistence in support values, which reflects the transient and dynamic nature of online discussions in this context.
 
 This volatility points to event-driven, short-lived support levels, mirroring the dynamic and reactive nature of online discussions.
 
-**Note: this could be more easily seen maybe with the shift in topics and support in same time periods if we can find any worth showing.
+#### Reddit conversation
+
+The topic modeling of Reddit comments and posts before and during the 2024 election reveals distinct yet overlapping patterns in political discourse, with recurring themes that reflect public focus on leadership, legal issues, and election outcomes. Topic 0 consistently centers on Biden, debates, and general perceptions of his presidency, showing fluctuations tied to debates and campaign events, with higher values observed prior to Biden’s retirement from the presidential race, reflecting heightened attention on his leadership and campaign. Topic 1 is characterized by mentions of Kamala Harris and, in earlier periods, Ken Paxton, capturing interest in figures associated with legal, social, and political controversies. Topic 2 captures discussions about public sentiment, actions, and opinions, highlighting an ongoing evaluation of political decisions, rights, and policies. Topic 3 emphasizes voting, elections, and outcomes, with a clear shift in focus from Biden to Kamala Harris over time, particularly after his retirement, as discussions transitioned to her role as a key candidate. While the extracted topics broadly discuss similar themes due to the central focus on the election, they reflect variations in how people express these ideas, shaped by subreddit-specific norms, individual writing styles, and differing emphases within the same overarching narrative. Notably, the discussions predominantly center on left-leaning candidates, particularly Joe Biden and Kamala Harris, emphasizing their leadership, election outcomes, and key events like debates, while mentions of figures like Ken Paxton remain situational and tied to controversies. The lack of substantial mentions of Trump suggests a potential bias, possibly stemming from Reddit’s community composition, event-specific focus on the Democratic campaign, or moderation policies steering discourse toward Democratic figures and away from broader political coverage.
 
 #### A Case Worth Mentioning
 
